@@ -10,7 +10,7 @@ const useShell = async (cmd: string, shell = "pwsh", cb = Function()): Promise<a
     }
 
     return result.value;
-}
+};
 
 export default useShell;
 export { useShell };

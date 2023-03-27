@@ -18,7 +18,7 @@
                 <span align-middle>
                     Send a test notification
                 </span>
-                <i-heroicons-solid-bell w-4 h-4/>
+                <i-heroicons-solid-bell w-4 h-4 />
             </Btn>
         </div>
 
@@ -29,6 +29,8 @@
 </template>
 
 <script lang="ts" setup>
+    import useNotification from "@/composables/useNotification";
+
     const result = ref("");
 
     const options = {

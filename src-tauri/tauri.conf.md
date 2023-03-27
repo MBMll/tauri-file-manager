@@ -1,3 +1,5 @@
+
+```json
 {
     "package": {
         "productName": "vitauri",
@@ -53,7 +55,7 @@
                     },
                     {
                         "name": "pwsh",
-                        "cmd": "powershell",
+                        "cmd": "powershell", // The command name. It can start with a variable that resolves to a system base directory. The variables are: $AUDIO, $CACHE, $CONFIG, $DATA, $LOCALDATA, $DESKTOP, $DOCUMENT, $DOWNLOAD, $EXE, $FONT, $HOME, $PICTURE, $PUBLIC, $RUNTIME, $TEMPLATE, $VIDEO, $RESOURCE, $APP, $LOG, $TEMP, $APPCONFIG, $APPDATA, $APPLOCALDATA, $APPCACHE, $APPLOG.
                         "args": ["-Command", { "validator": "\\S+" }]
                     }
                 ]
@@ -76,3 +78,4 @@
         }
     }
 }
+```
